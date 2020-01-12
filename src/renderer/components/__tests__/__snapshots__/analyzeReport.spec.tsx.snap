@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnalyzeReport Simple snapshot testing 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <HorizontalBar
+      data={
+        Object {
+          "datasets": Array [
+            Object {
+              "backgroundColor": Array [
+                "rgb(0,0,0)",
+                "rgb(0,0,0)",
+                "rgb(0,0,0)",
+                "rgb(0,0,0)",
+              ],
+              "data": Array [
+                3,
+                2,
+                1,
+                1,
+              ],
+              "label": "",
+            },
+          ],
+          "labels": Array [
+            "span",
+            "div",
+            "body",
+            "html",
+          ],
+        }
+      }
+      options={
+        Object {
+          "legend": Object {
+            "display": false,
+          },
+          "scales": Object {
+            "xAxes": Array [
+              Object {
+                "ticks": Object {
+                  "min": 0,
+                },
+              },
+            ],
+          },
+          "title": Object {
+            "display": true,
+            "text": "Top 5 tags",
+          },
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      justify="center"
+    >
+      <WithStyles(ForwardRef(Button))
+        color="secondary"
+        onClick={[Function]}
+        variant="contained"
+      >
+        Show all
+      </WithStyles(ForwardRef(Button))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <p>
+      The most common used tag is 
+      <strong>
+        span
+      </strong>
+      , it appears
+       
+      <em>
+        3
+      </em>
+       time
+      s
+      .
+    </p>
+    <p>
+      The path where the tag is most used and deepest is:
+      <p>
+        <WithStyles(ForwardRef(Breadcrumbs))
+          maxItems={5}
+        >
+          <WithStyles(ForwardRef(Typography))
+            color="textPrimary"
+            key="0"
+          >
+            html
+          </WithStyles(ForwardRef(Typography))>
+          <WithStyles(ForwardRef(Typography))
+            color="textPrimary"
+            key="1"
+          >
+            body
+          </WithStyles(ForwardRef(Typography))>
+          <WithStyles(ForwardRef(Typography))
+            color="textPrimary"
+            key="2"
+          >
+            div
+          </WithStyles(ForwardRef(Typography))>
+          <WithStyles(ForwardRef(Typography))
+            color="textPrimary"
+            key="3"
+          >
+            div
+          </WithStyles(ForwardRef(Typography))>
+          <WithStyles(ForwardRef(Typography))
+            color="textPrimary"
+            key="4"
+          >
+            span
+          </WithStyles(ForwardRef(Typography))>
+        </WithStyles(ForwardRef(Breadcrumbs))>
+      </p>
+    </p>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
